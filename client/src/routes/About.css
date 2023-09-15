@@ -1,0 +1,21 @@
+.history{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.history__head{
+    color: red;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 25px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}

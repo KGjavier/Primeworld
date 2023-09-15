@@ -1,0 +1,81 @@
+
+
+.welcome {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top__welcome {
+    position: absolute;
+    top: 45.1%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(252, 20, 20);
+    width: 80%;
+    font-weight:bolder ;
+    font-size:small;
+    border-radius: 0px;
+}
+
+.slogan{
+    background-color: rgb(3, 3, 3);
+    margin-top: 30px;
+    padding: 10px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.bottom__welcome{
+
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+p{
+    margin-top: 25px;
+    font-weight: 600;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+.button__like {
+    color:  white;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    margin-top: 20px;
+    font-size: 23px;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+    text-decoration: none;
+    background-color: rgb(48, 45, 45);
+}
+
+.button__like:hover {
+    background-color: red;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 850px) {
+    
+    .top__welcome {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(252, 20, 20);
+        width: 80%;
+        font-weight: 200;
+        font-size: xx-small;
+        border-radius: 0px;
+    }
+
+    .button__like {
+        font-size: 15px;
+    }
+}

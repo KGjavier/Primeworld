@@ -1,0 +1,75 @@
+.footer {
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: auto;
+    padding: 2rem 2rem;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    display: flex;
+    list-style: none;
+    align-items: top;
+    flex-wrap: wrap;
+    margin-top: -2%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50.09%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.company {
+    width: 480px;
+    text-align: left;
+    margin-left: 45px;
+}
+
+.icons__footer {
+    margin-top: 20px;
+}
+
+.icon__footer {
+    margin-right: 10px;
+}
+
+.footer__menu {
+    list-style: none;
+    text-align: left;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 45px;
+
+    
+
+}
+
+.footer__links {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact__main {
+    margin-top: 0px;
+    margin-left: 40px;
+
+}
+.contact__footer {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.details {
+    text-decoration: none;
+
+}
+
+.bold_details {
+    color: red;
+}
+
+.plogo {
+    margin-top: 0px;
+    width: 120px;
+    height: 170px;
+}

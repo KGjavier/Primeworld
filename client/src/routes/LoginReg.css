@@ -1,0 +1,168 @@
+.Create{
+    margin-top: 15px;
+    margin-left: 23%;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.reg__container{
+    height: 70%;
+    display:flex;
+    background-color: none;
+    opacity: 0.9;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button__x{
+    color: white;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    margin-top: 0px;
+    margin-left: 295px;
+    position: absolute;
+    top: 8%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+    text-decoration: none;
+    background-color: rgb(48, 45, 45);
+}
+
+.regform{
+    width:400px;
+    height:450px;
+    font-weight: bolder;
+    margin-left: 0%;
+    margin-right: 0;
+    border-radius: 0px;
+    background-color: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+.heading__reg{
+    font-size: 25px;
+    margin-bottom: 15px;
+    
+
+}
+.email__container{
+    margin-top: 20px;
+}
+.note{
+    margin-left: 20px;
+    margin-top: 0;
+}
+.loginform{
+    padding-top:100px;
+    width: 400px;
+    height: 450px;
+    font-weight: bolder;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+    background-color: none;
+    padding-left: 20px;
+    padding-right: 0px;
+    
+
+}
+.heading__reg {
+    margin-top: 20px;
+}
+@media screen and (max-width: 850px) {
+    .reg__container {
+        display: flex;
+        flex-direction: column;
+        background-color: none;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .regform {
+        width: 400px;
+        height: 600px;
+        font-weight: bolder;
+        margin-left: 0%;
+        margin-right: 0;
+        border-radius: 0px;
+        background-color: none;
+        padding-left: 40px;
+        padding-right: 20px;
+        }
+
+    .note {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        }
+
+    .Create {
+        margin-top: 15px;
+        margin-left: 3%;
+        background-color: black;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .loginform {
+        padding-top: 15px;
+        width: 400px;
+        height: 500px;
+        font-weight: Bolder;
+        text-shadow: 30;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+        background-color: none;
+        padding-left: 40px;
+        padding-right: 0px;
+        }
+    
+    .button__x {
+        color: white;
+        white-space: nowrap;
+        padding: 0.5rem 1rem;
+        margin-top: 0px;
+        border-radius: 0.3rem;
+        position: absolute;
+        margin-left: 295px;
+        left: 18%;
+        top: 8%;
+        font-size: 15px;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        font-weight: 900;
+        background-color: rgb(48, 45, 45);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
